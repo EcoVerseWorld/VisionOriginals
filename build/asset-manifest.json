@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67981a66.chunk.css",
+    "main.js": "/static/js/main.270b3067.chunk.js",
+    "main.js.map": "/static/js/main.270b3067.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35a689e8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35a689e8.js.map",
+    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
+    "static/js/2.1aeac445.chunk.js": "/static/js/2.1aeac445.chunk.js",
+    "static/js/2.1aeac445.chunk.js.map": "/static/js/2.1aeac445.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.67981a66.chunk.css.map": "/static/css/main.67981a66.chunk.css.map",
+    "static/js/2.1aeac445.chunk.js.LICENSE.txt": "/static/js/2.1aeac445.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Sequel100Black-65.e4003b0d.ttf",
+    "static/media/about-image.b8f87165.png": "/static/media/about-image.b8f87165.png",
+    "static/media/banner-home.5b23131a.png": "/static/media/banner-home.5b23131a.png",
+    "static/media/instagram.f69e037e.png": "/static/media/instagram.f69e037e.png",
+    "static/media/linkedin.6e79785a.png": "/static/media/linkedin.6e79785a.png",
+    "static/media/logo.5b23131a.png": "/static/media/logo.5b23131a.png",
+    "static/media/services-image.f2e4102f.png": "/static/media/services-image.f2e4102f.png",
+    "static/media/twitter.27f520ea.png": "/static/media/twitter.27f520ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35a689e8.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.1aeac445.chunk.js",
+    "static/css/main.67981a66.chunk.css",
+    "static/js/main.270b3067.chunk.js"
+  ]
+}
