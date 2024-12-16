@@ -1,6 +1,6 @@
 {
-  "short_name": "EvanOnEarth",
-  "name": "EvanOnEarth",
+  "short_name": "Vision Originals",
+  "name": "Vision Originals",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f1fe61",
-  "background_color": "#000000"
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
 }
