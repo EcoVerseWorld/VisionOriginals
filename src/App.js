@@ -22,15 +22,7 @@ const App = () => {
                                                   user_token_ID, setTokenID_Context,
                                                   user_metadata, setMetadata_Context,
                                                   user_avatar_URI, setAvatarURI_Context }}>
-               <BrowserRouter>
-                    {/* <Navbar /> */}
-                    {/*/<Background />*/}
-                    <Routes>
-                         <Route exact path="/" element={<Main />} />
-                         {/*<Route exact path="/consultation" element={<Consultation />} />*/}
-                    </Routes>
-                    {/* <Footer /> */}
-               </BrowserRouter>
+               <Main />
           </SmartContractContext.Provider>
      )
 }
