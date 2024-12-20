@@ -1,4 +1,4 @@
-.break_whoweare {
+.break_team {
   object-fit: cover;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
   background-color: var(--color-main);
 }
 
-.break_whoWeAreTitleContainer {
+.break_teamTitleContainer {
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -19,24 +19,24 @@
   margin: 1% 0% 0% 0%;
 }
 
-.break_WhoWeAreImage {
-  width: 20%;
+.break_TeamImage {
+  width: 10%;
 }
 
 
 
 
 @media only screen and (max-width: 560px) {  
-  .break_whoweare {
+  .break_team {
     padding-top: 70%;
     width: 100%;
   }
 
-  .break_whoWeAreTitleContainer {
+  .break_teamTitleContainer {
     width: 100%;
   }
 
-  .break_WhoWeAreImage {
+  .break_TeamImage {
     width: 80%;
   }
 }

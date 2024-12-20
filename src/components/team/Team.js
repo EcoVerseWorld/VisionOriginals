@@ -5,14 +5,10 @@ import React, { useEffect, useState } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import team_image_1 from '../../image/team-image-1.webp'
-import team_image_2 from '../../image/team-image-2.webp'
-import team_image_3 from '../../image/team-image-3.webp'
+import team_image_1 from '../../image/bio-oscar.png'
+import team_image_2 from '../../image/bio-teegs.png'
+import team_image_3 from '../../image/bio-evan.png'
 
-import twitter_icon from '../../image/icons/twitter.png'
-import linkedin_icon from '../../image/icons/linkedin.png'
-import instagram_icon from '../../image/icons/instagram.png'
-import website_icon from '../../image/icons/website.png'
 
 import './team.css'
 
@@ -26,7 +22,7 @@ import './team.css'
 //--------------------------------------------------------------------------------------------------
 //# Variables
 
-const delay_gap = 100;
+const delay_gap = 400;
 let mobile = window.innerWidth <= 600;
 
 
@@ -172,23 +168,19 @@ const Team = () => {
         <p>Loading...</p>
       ) : (
         <div>
-        <div className='teamTitleContainer'>
-          <div className='teamTitleText' data-aos="zoom-out-up">The Team</div>
-        </div>
         <div className='teamAllMembersContainer'>
           {/* --- Team Member #1 --- */}
           <div className='teamMemberContainer'>
             <div className='teamMemberImageContainer'>
-              <img data-aos="flip-right" data-aos-delay={.5 * delay_gap} src={team_image_1} alt='' className='teamMemberImage' id='teamMemberImage1' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
+              <img data-aos="flip-right" src={team_image_1} alt='' className='teamMemberImage' id='teamMemberImage1' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
             </div>
-            <div className='teamMemberTextContainer'>
+            {/* <div className='teamMemberTextContainer'>
               <div className='teamMemberTitleText' data-aos="zoom-out-down" data-aos-offset="-2" data-aos-delay={1 * delay_gap}>Evan Gottschalk ♈︎</div>
               <div className='teamMemberRoleText' data-aos="fade-down-right" data-aos-offset="-5" data-aos-delay={2 * delay_gap}>Co-founder, Lead Developer</div>
               <div className='teamMemberDescriptionContainer'>
                 <div className='teamMemberText' data-aos="fade-down-right" data-aos-offset="-8" data-aos-delay={3 * delay_gap}>• Founder at <a className='teamLink' href='https://nofunz.one/twitter-alchmref' target="_blank" rel="noreferrer" style={{ color: "#00ff11"}}>NoFun Labs</a></div>
                 <div className='teamMemberText' data-aos="fade-right" data-aos-offset="-11" data-aos-delay={4 * delay_gap}>• Blockchain Architect at <a className='teamLink' href='https://evanon.earth/mintedmoments-alchmref' target="_blank" rel="noreferrer" style={{ color: "#dc69ff"}}>EcoVerse</a></div>
                 <div className='teamMemberText' data-aos="fade-right" data-aos-offset="-14" data-aos-delay={6 * delay_gap}>• Head of Web3 Engineering at <a className='teamLink' href='https://evanon.earth/aphid-alchmref' target="_blank" rel="noreferrer" style={{ color: "#00F8BE"}}>Aphid AI</a></div>
-                {/* <div className='teamMemberText' data-aos="fade-down-left">• Pro Magic: The Gathering Player</div> */}
                 <div className='teamMemberText' data-aos="fade-up-right" data-aos-offset="-17" data-aos-delay={7 * delay_gap}>• Competitively Sarcastic</div>
               </div>
             </div>
@@ -197,14 +189,14 @@ const Team = () => {
               <img data-aos="fade-up" data-aos-offset="-20" data-aos-delay={9 * delay_gap} src={instagram_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage1_2' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
               <img data-aos="fade-up" data-aos-offset="-20" data-aos-delay={10 * delay_gap} src={linkedin_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage1_3' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
               <img data-aos="fade-up-left" data-aos-offset="-20" data-aos-delay={11 * delay_gap} src={website_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage1_4' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
-            </div>
+            </div> */}
           </div>
           {/* --- Team Member #2 --- */}
           <div className='teamMemberContainer'>
             <div className='teamMemberImageContainer'>
-              <img data-aos="flip-right" data-aos-delay={mobile ? .5 * delay_gap : 11.5 * delay_gap} src={team_image_2} alt='' className='teamMemberImage' id='teamMemberImage2' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
+              <img data-aos="flip-right" data-aos-delay={mobile ? 0 : 1 * delay_gap} src={team_image_2} alt='' className='teamMemberImage' id='teamMemberImage2' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
             </div>
-            <div className='teamMemberTextContainer'>
+            {/* <div className='teamMemberTextContainer'>
               <div className='teamMemberTitleText' data-aos="zoom-out-down" data-aos-offset="-2" data-aos-delay={mobile ? 1 * delay_gap : 12 * delay_gap}>Greg Castro ♋︎</div>
               <div className='teamMemberRoleText' data-aos="fade-down-right" data-aos-offset="-5" data-aos-delay={mobile ? 2 * delay_gap : 13 * delay_gap}>Co-founder, Lead Alchemist</div>
               <div className='teamMemberDescriptionContainer'>
@@ -219,14 +211,14 @@ const Team = () => {
               <img data-aos="fade-up" data-aos-offset="-20" data-aos-delay={mobile ? 9 * delay_gap : 20 * delay_gap} src={instagram_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage2_2' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
               <img data-aos="fade-up" data-aos-offset="-20" data-aos-delay={mobile ? 10 * delay_gap : 21 * delay_gap} src={linkedin_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage2_3' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
               <img data-aos="fade-up-left" data-aos-offset="-20" data-aos-delay={mobile ? 11 * delay_gap : 22 * delay_gap} src={website_icon} alt='' className='teamMemberSocialsImage' id='teamMemberSocialsImage2_4' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
-            </div>
+            </div> */}
           </div>
           {/* --- Team Member #3 --- */}
           <div className='teamMemberContainer'>
             <div className='teamMemberImageContainer'>
-              <img data-aos="flip-right" data-aos-delay={mobile ? .5 * delay_gap : 22.5 * delay_gap} src={team_image_3} alt='' className='teamMemberImage teamMemberImage3' id='teamMemberImage3' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
+              <img data-aos="flip-right" data-aos-delay={mobile ? 0 : 2 * delay_gap} src={team_image_3} alt='' className='teamMemberImage' id='teamMemberImage3' onMouseOver={mouseOver} onMouseLeave={mouseLeave}/>
             </div>
-            <div className='teamMemberTextContainer'>
+            {/* <div className='teamMemberTextContainer'>
               <div className='teamMemberTitleText' data-aos="zoom-out-down" data-aos-offset="-2" data-aos-delay={mobile ? 1 * delay_gap : 23 * delay_gap}>[ Your Name Here ]</div>
               <div className='teamMemberRoleText' data-aos="fade-down-right" data-aos-offset="-5" data-aos-delay={mobile ? 2 * delay_gap : 24 * delay_gap}>Choose Your Role</div>
               <div className='teamMemberDescriptionContainer'>
@@ -239,7 +231,7 @@ const Team = () => {
             <div className='teamMemberSocialsContainer'>
               <div data-aos="fade-up-right" data-aos-offset="-20" data-aos-delay={mobile ? 7 * delay_gap : 29 * delay_gap} alt='No Astrology Knowledge Required' className='teamMemberSignupButton' id='teamMemberSignupButton' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}>Join the Team</div>
               <div data-aos="fade-up-left" data-aos-offset="-20" data-aos-delay={mobile ? 8 * delay_gap : 30 * delay_gap} alt='Get Early Access' className='teamMemberSignupButton' id='teamMemberBetaButton' onClick={handleClick} onMouseOver={mouseOver} onMouseLeave={mouseLeave}>Beta Signup</div>
-            </div>
+            </div> */}
           </div>
         </div>
         </div>

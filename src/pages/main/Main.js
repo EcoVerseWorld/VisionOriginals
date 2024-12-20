@@ -3,6 +3,8 @@ import React from 'react'
 import Contact from '../../components/contact/Contact'
 import Break_WhoWeAre from '../../components/break_whoweare/Break_WhoWeAre'
 import About from '../../components/about/About'
+import Break_Team from '../../components/break_team/Break_Team'
+import Team from '../../components/team/Team'
 
 
 //import Roadmap from '../../components/roadmap/Roadmap'
@@ -24,7 +26,8 @@ const Main = () => {
       <Contact />
       <Break_WhoWeAre />
       <About />
-      {/* <Services /> */}
+      <Break_Team />
+      <Team />
       {/* <Animation /> */}
     </div>
   )

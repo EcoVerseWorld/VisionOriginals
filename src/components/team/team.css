@@ -4,36 +4,14 @@
   justify-content: center;
   display: flex;
   width: 100%;
-  margin: 5% 0% 0% 0%;
-  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 10% 0%;
   overflow: hidden;
+  background-color: var(--color-main);
 }
 
-.teamTitleContainer {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  width: 100%;
-  padding: 1% 0% 1.7% 0%;
-  margin: 1% 0% 0% 0%;
-  mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%);
-  mask-repeat: no-repeat;
-  mask-size: 100% 100%;
-}
 
-.teamTitleText {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-main);
-  background-color: black;
-  font-size: 50px;
-  text-decoration: none;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .teamAllMembersContainer {
   margin: 2% 0% 0% 0%;
@@ -45,29 +23,23 @@
 }
 
 .teamMemberContainer {
-  width: 31vw;
-  background-color: #000000;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  border-radius: 25px;
   z-index: 1;
-  margin: 0% 2.5% 0% 2.5%;
-  padding: 3% 2.5% 1.5% 2.5%;
-  border: solid;
-  border-width: 2px;
-  border-color: var(--color-main);
+}
+
+.teamMemberImageContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .teamMemberImage {
-  width: 100%;
+  width: 60%;
   display: flex;
   border-radius: 15px;
-}
-
-.teamMemberImage3 {
-  width: 287px;
 }
 
 .teamMemberTextContainer {
@@ -140,7 +112,7 @@
   .team {
     width: 100%;
     margin: 0% 0% 0% 0%;
-    padding: 0% 0% 0% 0%;
+    padding: 0% 0% 10% 0%;
   }
 
   .teamAllMembersContainer {
@@ -154,6 +126,10 @@
     width: 80%;
     margin: 5% 0% 5% 0%;
     padding: 10% 5% 3% 5%;
+  }
+
+  .teamMemberImage {
+    width: 100%;
   }
 
   .teamMemberText {
