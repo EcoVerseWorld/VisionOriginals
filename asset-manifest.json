@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e54ee158.chunk.css",
-    "main.js": "/static/js/main.80fdd9c6.chunk.js",
-    "main.js.map": "/static/js/main.80fdd9c6.chunk.js.map",
+    "main.css": "/static/css/main.5011a835.chunk.css",
+    "main.js": "/static/js/main.268bbc65.chunk.js",
+    "main.js.map": "/static/js/main.268bbc65.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35a689e8.js",
     "runtime-main.js.map": "/static/js/runtime-main.35a689e8.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.fa54a54b.chunk.js": "/static/js/2.fa54a54b.chunk.js",
-    "static/js/2.fa54a54b.chunk.js.map": "/static/js/2.fa54a54b.chunk.js.map",
+    "static/js/2.083e4478.chunk.js": "/static/js/2.083e4478.chunk.js",
+    "static/js/2.083e4478.chunk.js.map": "/static/js/2.083e4478.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.e54ee158.chunk.css.map": "/static/css/main.e54ee158.chunk.css.map",
-    "static/js/2.fa54a54b.chunk.js.LICENSE.txt": "/static/js/2.fa54a54b.chunk.js.LICENSE.txt",
+    "static/css/main.5011a835.chunk.css.map": "/static/css/main.5011a835.chunk.css.map",
+    "static/js/2.083e4478.chunk.js.LICENSE.txt": "/static/js/2.083e4478.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Sequel100Black-65.e4003b0d.ttf",
     "static/media/about-text-image.814135ed.png": "/static/media/about-text-image.814135ed.png",
     "static/media/banner-home.5b23131a.png": "/static/media/banner-home.5b23131a.png",
+    "static/media/bio-evan.1ca098d4.png": "/static/media/bio-evan.1ca098d4.png",
+    "static/media/bio-oscar.08c693a8.png": "/static/media/bio-oscar.08c693a8.png",
+    "static/media/bio-teegs.86958ba8.png": "/static/media/bio-teegs.86958ba8.png",
     "static/media/instagram.f69e037e.png": "/static/media/instagram.f69e037e.png",
     "static/media/linkedin.6e79785a.png": "/static/media/linkedin.6e79785a.png",
     "static/media/logo-black-outline.ec40d19e.png": "/static/media/logo-black-outline.ec40d19e.png",
@@ -24,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.35a689e8.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.fa54a54b.chunk.js",
-    "static/css/main.e54ee158.chunk.css",
-    "static/js/main.80fdd9c6.chunk.js"
+    "static/js/2.083e4478.chunk.js",
+    "static/css/main.5011a835.chunk.css",
+    "static/js/main.268bbc65.chunk.js"
   ]
 }
