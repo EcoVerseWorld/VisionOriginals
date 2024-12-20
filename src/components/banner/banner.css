@@ -9,6 +9,7 @@
   padding: 8% 0% 0% 0%;
   width: 100%;
   overflow: hidden;
+  background-color: var(--color-main);
 }
 
 .banner {

@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../../components/about/About'
-import Services from '../../components/services/Services'
+// import Services from '../../components/services/Services'
 import Contact from '../../components/contact/Contact'
 //import Roadmap from '../../components/roadmap/Roadmap'
 //import Team from '../../components/team/Team'
@@ -19,7 +19,7 @@ const Main = () => {
     <div className='main'>
       <Banner />
       <Contact />
-      {/* <About /> */}
+      <About />
       {/* <Services /> */}
       {/* <Animation /> */}
     </div>
