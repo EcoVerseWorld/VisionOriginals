@@ -1,0 +1,38 @@
+.break_whoweare {
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 0% 0% 0% 0%;
+  padding: 20% 0% 0% 0%;
+  overflow: hidden;
+  background-color: var(--color-main);
+}
+
+.break_whoWeAreTitleContainer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 1% 0% 1% 0%;
+  margin: 1% 0% 0% 0%;
+}
+
+.break_WhoWeAreImage {
+  width: 20%;
+}
+
+
+
+
+@media only screen and (max-width: 560px) {  
+  .break_whoWeAre {
+    margin-top: 50%;
+    width: 100%;
+  }
+
+  .break_whoWeAreTitleContainer {
+    mask-image: linear-gradient(to right, transparent 0%, black 18%, black 82%, transparent 100%);
+  }
+}

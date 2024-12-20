@@ -2,6 +2,7 @@ import React from 'react'
 
 import about_image from '../../image/logo-black-outline.png'
 import about_text_image from '../../image/about-text-image.png'
+import who_we_are_image from '../../image/who-we-are.png'
 
 import './about.css'
 

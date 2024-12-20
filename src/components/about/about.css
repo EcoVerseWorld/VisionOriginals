@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--color-main);
-  padding: 10% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
   margin: 0% 0% 0% 0%;
   overflow: hidden;
 }
@@ -81,19 +81,7 @@
   width: 45%;
 }
 
-.aboutLink:hover {
-  -webkit-transform: scale(1.10);
-  -moz-transform: scale(1.10);
-  -o-transform: scale(1.10);
-  transform: scale(1.10);
-}
 
-.aboutLink:active {
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
-}
 
 @media only screen and (max-width: 560px) {
   .about {

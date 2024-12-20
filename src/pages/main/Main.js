@@ -1,7 +1,10 @@
 import React from 'react'
-import About from '../../components/about/About'
-// import Services from '../../components/services/Services'
+
 import Contact from '../../components/contact/Contact'
+import Break_WhoWeAre from '../../components/break_whoweare/Break_WhoWeAre'
+import About from '../../components/about/About'
+
+
 //import Roadmap from '../../components/roadmap/Roadmap'
 //import Team from '../../components/team/Team'
 //import FAQ from '../../components/faq/FAQ'
@@ -19,6 +22,7 @@ const Main = () => {
     <div className='main'>
       <Banner />
       <Contact />
+      <Break_WhoWeAre />
       <About />
       {/* <Services /> */}
       {/* <Animation /> */}
